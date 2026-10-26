@@ -1,0 +1,15 @@
+{
+	"name": "ashishDFactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1406eaed-1bd2-4de2-aea4-f902857e3560",
+		"tenantId": "08b4f532-7362-47b1-8b8d-75ffa86cd1ef"
+	}
+}
