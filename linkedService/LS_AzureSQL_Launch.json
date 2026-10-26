@@ -1,0 +1,14 @@
+{
+	"name": "LS_AzureSQL_Launch",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "ashishsqlservr.database.windows.net",
+			"database": "ashishDatabase",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		}
+	}
+}
