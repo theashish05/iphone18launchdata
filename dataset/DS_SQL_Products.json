@@ -1,0 +1,37 @@
+{
+	"name": "DS_SQL_Products",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_Launch",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "product_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "product_name",
+				"type": "varchar"
+			},
+			{
+				"name": "storage_gb",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "unit_price",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "erp",
+			"table": "Products"
+		}
+	}
+}
